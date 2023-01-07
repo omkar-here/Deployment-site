@@ -1,0 +1,83 @@
+
+.main-nav{
+    width: 100%;
+    background-color: #333;
+    /* float: inline-start; */
+    display: flex;
+    border-bottom: 7px solid purple;
+    /* justify-content: start; */
+    /* justify-items: flex-end; */
+}
+body{
+    margin: 0;
+    /* background-color: aquamarine;
+    opacity: 0.4; */
+}
+.slogan{
+    color: whitesmoke;
+    opacity: 0.8;
+    font-size: 45px;
+    /* display: inline; */
+    /* align-items: center; */
+    /* box-sizing: border-box; */
+     margin-top:25px;
+     margin-bottom: 0;
+     margin-left:auto;
+     margin-right: auto;
+    /* padding: px 20px; */
+}
+.icon-image{
+    width: 70px;
+    height: 70px;
+    
+    padding: 10px 20px;
+    border-radius: 500px;
+    
+    /* display: inline; */
+    /* margin-left: 400px; */
+    /* justify-content: flex-start; */
+}
+.searchBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: auto;
+}
+.input-box{
+    width: 73%;
+    height: 50px;
+    border: 3px solid purple;
+    box-shadow:  0px 0px 18px purple;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+.submit-button{
+    width: 7%;
+    font-size: x-large;
+    margin-left: 15px;
+    box-shadow:  0px 0px 10px purple;
+    background-color: rgba(222, 49, 210, 0.8);
+    color: white;
+}
+.output{
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow:  0px 0px 18px purple;
+    width: 70%;
+    font-size: 2em;
+    background-color: lightcoral;
+    color: wheat;
+}
+.section-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-text{
+    display: inline;
+}
